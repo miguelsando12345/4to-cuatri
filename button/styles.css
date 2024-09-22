@@ -1,0 +1,35 @@
+.protest-guerrilla-regular {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.areaDeBotones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* vamos a agregar color, estilo y distribucion  */
+
+button {
+  margin: 20px;
+  width: 200px;
+  height: 100px;
+  font-size: xx-large;
+  background-color: aqua;
+  border-radius: 10px;
+}
+/* tarea investigar salidas de una tableta 
+Realizar ajustes de boton en tableta 
+cambiar en boton verde en tableta  */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Cambiar color de fondo del botón a verde en tableta */
+  button {
+    background-color: green;
+    width: 180px; /* Ajustar el ancho para dispositivos de tableta */
+    height: 90px; /* Ajustar el alto para dispositivos de tableta */
+    font-size: x-large; /* Ajustar tamaño de fuente */
+  }
+}
